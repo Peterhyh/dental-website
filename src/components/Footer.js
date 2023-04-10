@@ -1,0 +1,27 @@
+import { Container, Row, Col } from 'reactstrap';
+
+const Footer = () => {
+    return (
+        <footer className='site-footer'>
+            <Container>
+                <Row>
+                    <Col>
+                        <h5>Hours of Operation:</h5>
+                        <p>Mon-Fri 8:00AM-5:00PM</p>
+                    </Col>
+                    <Col>
+                        <h5>Location:</h5>
+                        <p>Address, City, State, Zip</p>
+                    </Col>
+                    <Col>
+                        <h5>Contact:</h5>
+                        <p>{'Tel: (XXX) XXX-XXXX'}</p>
+                        <p>{'Fax: (XXX) XXX-XXXX'}</p>
+                    </Col>
+                </Row>
+            </Container>
+        </footer>
+    )
+};
+
+export default Footer;

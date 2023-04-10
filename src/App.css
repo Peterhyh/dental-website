@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+/* Header.js------------------------------------------------------*/
+.nav {
+  background-color: #113E61C4;
+}
+
+
+
+/* HomeBanner.js------------------------------------------------------*/
+.content {
+  height: 100vh;
+  color: #fff;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.appointment-button {
+  background: #0DACD4;
+  color: #fff;
+  border: none;
+}
+
+/* Footer.js------------------------------------------------------*/
+.site-footer {
+  background-color: #113E61;
+  color: #fff;
+  padding: 20px;
+}
