@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #F2F2F2;
+  font-family: 'Cormorant', serif;
 }
 
 .App-logo {
@@ -57,9 +59,10 @@
 }
 
 .appointment-button {
-  background: #0DACD4;
+  background: #EA1B2C;
   color: #fff;
   border: none;
+  width: 400px
 }
 
 /* Footer.js------------------------------------------------------*/
@@ -67,4 +70,146 @@
   background-color: #113E61;
   color: #fff;
   padding: 20px;
+}
+
+/* DoctorSection.js------------------------------------------------------*/
+.doctor-title {
+  text-align: justify;
+}
+
+.james-title {
+  text-align: justify;
+}
+
+.james-description {
+  text-align: justify;
+}
+
+.james-pic {
+  height: 300px;
+  width: 200px;
+  border-color: rgb(0, 0, 0);
+  border: solid;
+  border-width: medium;
+  border-radius: 10px;
+}
+
+.mark-title {
+  text-align: justify;
+}
+
+.mark-description {
+  text-align: justify;
+}
+
+.mark-pic {
+  height: 200px;
+  width: 300px;
+  border-color: rgb(0, 0, 0);
+  border: solid;
+  border-width: medium;
+  border-radius: 10px;
+}
+
+.horizontal-rule {
+  color: 'grey';
+  height: 5;
+}
+
+.simon-title {
+  text-align: justify;
+}
+
+.simon-description {
+  text-align: justify;
+}
+
+.simon-pic {
+  height: 200px;
+  width: 300px;
+  border-color: rgb(0, 0, 0);
+  border: solid;
+  border-width: medium;
+  border-radius: 10px;
+}
+
+/* MissionSection.js------------------------------------------------------*/
+.mission-description {
+  background-color: #54BCDCC4;
+  height: 300px;
+  width: 100%;
+}
+
+.mission-banner {
+  height: 500px;
+  width: 100%;
+}
+
+.mission-title {
+  color: #fff;
+}
+
+/* IntroductionSection.js------------------------------------------------------*/
+
+.about-title-underline {
+  color: grey;
+}
+
+.about-building-pic {
+  height: 500px;
+  width: 700px;
+  border: solid;
+  border-width: medium;
+  border-color: black;
+  border-radius: 20px;
+}
+
+/* WhyUsSection.js------------------------------------------------------*/
+.why-us-container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 1400px;
+  border-radius: 20px;
+}
+
+/* ServicesSection.js------------------------------------------------------*/
+
+.services-container {
+  height: 500px;
+  width: 100%;
+}
+
+.overlay-container {
+  background-color: #54BCDCC4;
+  height: 300px;
+  width: 100%;
+}
+
+.services-buttons {
+  background-color: #54BCDC;
+  color: #fff;
+  height: 200px;
+  width: 200px;
+  border: solid;
+  border-color: #fff;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.services-buttons:hover {
+  background-color: #54BCDC;
+  color: #fff;
+  height: 205px;
+  width: 205px;
+  border: solid;
+  border-color: #fff;
+  border-radius: 20px;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.popover-body {
+  background-color: #54BCDC;
+  width: 200%;
+  font-size: 20px;
 }

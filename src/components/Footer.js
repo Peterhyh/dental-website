@@ -7,7 +7,7 @@ const Footer = () => {
                 <Row>
                     <Col>
                         <h5>Hours of Operation:</h5>
-                        <p>Mon-Fri 8:00AM-5:00PM</p>
+                        <p>Mon-Fri 8:00 a.m. - 5:00 p.m.</p>
                     </Col>
                     <Col>
                         <h5>Location:</h5>

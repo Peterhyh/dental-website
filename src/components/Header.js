@@ -13,7 +13,7 @@ const Header = () => {
 
     return (
         <Navbar className='nav p-4' dark expand='md' fixed='top'>
-            <NavbarBrand className='ms-5' href='/'>Dental Brand</NavbarBrand>
+            <NavbarBrand className='ms-5' href='/'>SweetlyDental</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className='ms-auto' navbar>
@@ -21,23 +21,14 @@ const Header = () => {
                         <NavLink className='nav-link' to='/' >Home</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link'>About</NavLink>
+                        <NavLink className='nav-link' to='/about'>About</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link'>Our Team</NavLink>
+                        <NavLink className='nav-link' to='/services'>Our Services</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link'>Our Services</NavLink>
+                        <NavLink className='nav-link' to='/contact'>Our Services</NavLink>
                     </NavItem>
-                    <UncontrolledDropdown nav inNavbar>
-                        <DropdownToggle nav caret>
-                            Contact Us
-                        </DropdownToggle>
-                        <DropdownMenu right>
-                            <DropdownItem>Location</DropdownItem>
-                            <DropdownItem>Contact Info</DropdownItem>
-                        </DropdownMenu>
-                    </UncontrolledDropdown>
                 </Nav>
             </Collapse>
         </Navbar>
