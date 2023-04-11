@@ -11,16 +11,11 @@ const IntroductionSection = () => {
                     <h1>About Us</h1>
                 </Col>
             </Row>
-            <Row className='mb-5'>
-                <Col>
-
-                </Col>
-            </Row>
-            <Row className='mb-5 d-flex align-items-center'>
-                <Col md='7'>
+            <Row className='mb-5 d-flex align-items-center justify-content-center'>
+                <Col >
                     <img className='about-building-pic' src={Building} alt='dental building' />
                 </Col>
-                <Col md='5'>
+                <Col className='col-sm-12 col-xl-5 mt-5'>
                     <h3 >SweetlyDental</h3>
                     <hr class='horizontal-rule' />
                     <br />

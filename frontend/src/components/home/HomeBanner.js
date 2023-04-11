@@ -38,10 +38,10 @@ const HomeBanner = () => {
     return (
         <>
             <Modal isOpen={openModal}>
-                <ModalHeader toggle={toggleExit}>
+                <ModalHeader className='modal-header' toggle={toggleExit}>
                     Setup your appointment:
                 </ModalHeader>
-                <ModalBody>
+                <ModalBody className='modal-body'>
                     <Formik
                         initialValues={{
                             timeAndDate: '',
@@ -60,6 +60,7 @@ const HomeBanner = () => {
                         <Form>
                             <FormGroup>
                                 <Label htmlFor='dateAndTime'>Select a time and date:</Label>{' '}
+                                <br />
                                 <Field
                                     name='dateAndTime'
                                     type='datetime-local'
@@ -159,7 +160,7 @@ const HomeBanner = () => {
                                     Cosmetic
                                 </Label>
                             </FormGroup>
-                            <FormGroup>
+                            <FormGroup className='d-flex justify-content-center'>
                                 <Button className='m-5' type='submit' color='primary'>
                                     Submit
                                 </Button>

@@ -60,6 +60,15 @@
 
 
 /* HomeBanner.js------------------------------------------------------*/
+.modal-header {
+  background-color: #113E61;
+  color: #F2F2F2;
+}
+
+.modal-body {
+  background-color: #F2F2F2;
+}
+
 .content {
   height: 100vh;
   color: #fff;
@@ -155,11 +164,14 @@
 
 /* IntroductionSection.js------------------------------------------------------*/
 
-
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
 
 .about-building-pic {
-  height: 500px;
-  width: 700px;
+  height: 300px;
+  width: 470px;
   border: solid;
   border-width: medium;
   border-color: black;
@@ -177,23 +189,19 @@
 /* ServicesSection.js------------------------------------------------------*/
 
 .services-container {
-  height: 500px;
+  height: 100%;
   width: 100%;
-}
-
-.overlay-container {
-  background-color: #54BCDCC4;
-  height: 300px;
-  width: 100%;
+  border: solid;
+  border-color: black;
 }
 
 .services-buttons {
   background-color: #54BCDC;
   color: #fff;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border: solid;
-  border-color: #fff;
+  border-color: black;
   border-radius: 20px;
   margin: 10px;
 }
@@ -201,10 +209,10 @@
 .services-buttons:hover {
   background-color: #54BCDC;
   color: #fff;
-  height: 205px;
-  width: 205px;
+  height: 155px;
+  width: 155px;
   border: solid;
-  border-color: #fff;
+  border-color: black;
   border-radius: 20px;
   margin: 10px;
   transition: 0.3s;
