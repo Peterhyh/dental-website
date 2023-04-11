@@ -14,7 +14,7 @@ const HomeBanner = () => {
 
     const handleSubmit = (values, { resetForm }) => {
         axios.post('http://localhost:3001/appointment', {
-            timeAndDate: values.timeAndDate,
+            dateAndTime: values.dateAndTime,
             name: values.name,
             email: values.email,
             phone: values.phone,
@@ -25,10 +25,12 @@ const HomeBanner = () => {
             cleaning: values.cleaning,
             cosmetic: values.cosmetic,
         })
-            .then(() => {
-                alert('Appointment sent!')
+            .then(response => {
+                console.log(response);
+                alert('Appointment sent!');
             })
             .catch(error => console.error(error));
+        console.log(typeof values.timeAndDate.datatype);
         resetForm()
         setOpenModal(!openModal)
     };
@@ -57,11 +59,11 @@ const HomeBanner = () => {
                     >
                         <Form>
                             <FormGroup>
-                                <Label htmlFor='timeAndDate'>Select a time and date:</Label>{' '}
+                                <Label htmlFor='dateAndTime'>Select a time and date:</Label>{' '}
                                 <Field
-                                    name='timeAndDate'
+                                    name='dateAndTime'
                                     type='datetime-local'
-                                    id='timeAndDate'
+                                    id='dateAndTime'
                                 />
                             </FormGroup>
 
