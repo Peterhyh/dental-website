@@ -11,7 +11,7 @@ const Footer = () => {
                     </Col>
                     <Col>
                         <h5>Location:</h5>
-                        <p>Address, City, State, Zip</p>
+                        <p>1234 Demo Ave. Suite #5 City, State, Zip</p>
                     </Col>
                     <Col>
                         <h5>Contact:</h5>

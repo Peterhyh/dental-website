@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -27,7 +27,7 @@ const Header = () => {
                         <NavLink className='nav-link' to='/services'>Our Services</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/contact'>Our Services</NavLink>
+                        <NavLink className='nav-link' to='/contact'>Contact us</NavLink>
                     </NavItem>
                 </Nav>
             </Collapse>

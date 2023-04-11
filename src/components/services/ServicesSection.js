@@ -1,6 +1,4 @@
-import { PopoverBody, UncontrolledPopover } from 'reactstrap';
 import { Parallax } from 'react-parallax';
-import { useState } from 'react';
 import RootCanals from '../../app/assets/img/rootcanal.png';
 import Cosmetic from '../../app/assets/img/cosmetic.png';
 import Implant from '../../app/assets/img/implant.png';

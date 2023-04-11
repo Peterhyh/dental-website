@@ -42,6 +42,15 @@
   }
 }
 
+.about-title-underline {
+  color: grey;
+}
+
+.horizontal-rule {
+  color: 'grey';
+  height: 5;
+}
+
 
 /* Header.js------------------------------------------------------*/
 .nav {
@@ -111,11 +120,6 @@
   border-radius: 10px;
 }
 
-.horizontal-rule {
-  color: 'grey';
-  height: 5;
-}
-
 .simon-title {
   text-align: justify;
 }
@@ -151,9 +155,7 @@
 
 /* IntroductionSection.js------------------------------------------------------*/
 
-.about-title-underline {
-  color: grey;
-}
+
 
 .about-building-pic {
   height: 500px;
@@ -212,4 +214,14 @@
   background-color: #54BCDC;
   width: 200%;
   font-size: 20px;
+}
+
+
+/* Location.js------------------------------------------------------*/
+
+.location-container {
+  background-color: #fff;
+  width: 30rem;
+  border-radius: 20px;
+  text-align: center;
 }

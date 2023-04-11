@@ -22,7 +22,7 @@ const IntroductionSection = () => {
                 </Col>
                 <Col md='5'>
                     <h3 >SweetlyDental</h3>
-                    <hr class='about-title-underline' />
+                    <hr class='horizontal-rule' />
                     <br />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ante malesuada, ullamcorper felis sed, egestas lectus. Pellentesque sed dolor id quam posuere accumsan at eu odio. Suspendisse potenti. Cras viverra odio vitae ligula vehicula faucibus. Aliquam laoreet pellentesque semper. Donec at ultricies urna, sed posuere lectus. Maecenas lobortis pulvinar orci, quis suscipit est pellentesque in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ante malesuada, ullamcorper felis sed, egestas lectus. Pellentesque sed dolor id quam posuere accumsan at eu odio. Suspendisse potenti. Cras viverra odio vitae ligula vehicula faucibus. Aliquam laoreet pellentesque semper. Donec at ultricies urna, sed posuere lectus. Maecenas lobortis pulvinar orci, quis suscipit est pellentesque in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ante malesuada, ullamcorper felis sed, egestas lectus. Pellentesque sed dolor id quam posuere accumsan at eu odio. Suspendisse potenti. Cras viverra odio vitae ligula vehicula faucibus. Aliquam laoreet pellentesque semper. Donec at ultricies urna, sed posuere lectus. Maecenas lobortis pulvinar orci, quis suscipit est pellentesque in.</p>
                 </Col>
