@@ -13,7 +13,7 @@ const HomeBanner = () => {
     };
 
     const handleSubmit = (values, { resetForm }) => {
-        axios.post('/appointment/insert', {
+        axios.post('http://localhost:3001/appointment', {
             timeAndDate: values.timeAndDate,
             name: values.name,
             email: values.email,

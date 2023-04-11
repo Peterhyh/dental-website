@@ -5,7 +5,7 @@ import axios from 'axios';
 const Location = () => {
 
     const handleSubmit = (values, { resetForm }) => {
-        axios.post('/contact/insert', {
+        axios.post('http://localhost:3001/contact', {
             name: values.name,
             email: values.email,
             phone: values.phone,
