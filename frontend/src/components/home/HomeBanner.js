@@ -13,7 +13,7 @@ const HomeBanner = () => {
     };
 
     const handleSubmit = (values, { resetForm }) => {
-        axios.post('http://localhost:3001/appointment', {
+        axios.post('http://100.26.61.126:8000/appointment', {
             dateAndTime: values.dateAndTime,
             name: values.name,
             email: values.email,

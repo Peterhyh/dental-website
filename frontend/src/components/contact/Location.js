@@ -5,7 +5,7 @@ import axios from 'axios';
 const Location = () => {
 
     const handleSubmit = (values, { resetForm }) => {
-        axios.post('http://localhost:3001/contact', {
+        axios.post('http://100.26.61.126:8000/contact', {
             name: values.name,
             email: values.email,
             phone: values.phone,
